@@ -1,0 +1,63 @@
+apiVersion: "hsblhsn.me/v1"
+kind: Experiment
+metadata:
+  name: resume-of-john-doe
+  namespace: hsblhsn
+spec:
+  resume:
+    profile:
+      full_name: "John Doe"
+      introductory: "I am a software engineer with 5 years of experience in the industry."
+    contact:
+      email: "john.doe@example.com"
+      phone: "+1 123 456 7890"
+      address: "1234, Main Street, New York, NY 12345"
+      website: "https://example.com"
+    work_experience:
+      - company: "ABC Company"
+        position: "Software Engineer"
+        start_date: "2015-01-01"
+        end_date: "2017-01-01"
+        description: "I worked as a software engineer in ABC Company."
+        highlights:
+          - "I worked on project X."
+          - "I worked on project Y."
+      - company: "XYZ Company"
+        position: "Senior Software Engineer"
+        start_date: "2017-01-01"
+        end_date: "2019-01-01"
+        description: "I worked as a senior software engineer in XYZ Company."
+        highlights:
+          - "I worked on project X."
+          - "I worked on project Y."
+    education:
+      - institution: "ABC University"
+        degree: "Bsc. Computer Science"
+        gpa: "3.5"
+        description: "I studied computer science in ABC University."
+        start_date: "2010-01-01"
+        end_date: "2014-01-01"
+    skills:
+      - kind: "Programming Languages"
+        items:
+          - "Python"
+          - "Java"
+          - "C++"
+      - kind: "Web Technologies"
+        items:
+          - "HTML"
+          - "CSS"
+    achievements:
+      - title: "Award 1"
+        date: "2015-01-01"
+        awarder: "ABC Company"
+        summary: "I won the award 1."
+      - title: "Award 2"
+        date: "2016-01-01"
+        awarder: "XYZ Company"
+        summary: "I won the award 2."
+    links:
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/johndoe"
+      - name: "GitHub"
+        url: "https://www.github.com/in/johndoe"
